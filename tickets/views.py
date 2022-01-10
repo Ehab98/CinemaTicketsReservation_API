@@ -28,3 +28,13 @@ def no_rest_from_model(request):
         'guests':list(data.values('name','mobile'))
     }
     return JsonResponse(response)
+
+
+
+# List == GET
+# Create == POST
+# pk query == GET 
+# Update == PUT
+# Delete destroy == DELETE
+
+#3 
