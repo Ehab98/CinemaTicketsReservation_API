@@ -8,5 +8,7 @@ admin.site.register(Guest)
 admin.site.register(Movie)
 
 #Reservation Register
-admin.site.register(Reservation)
+class reservation(admin.ModelAdmin):
+    list_display = ('guest','movie')
+admin.site.register(Reservation,reservation)
 

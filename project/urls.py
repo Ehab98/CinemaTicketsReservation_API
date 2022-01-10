@@ -10,6 +10,8 @@ urlpatterns = [
     path('1/',views.no_rest_no_model),
     #2
     path('2/',views.no_rest_from_model),
+    #3
+    path('3/',views.no_rest_from_model),
     ####################
     path('api-auth/', include('rest_framework.urls'))
 ]

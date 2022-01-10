@@ -40,6 +40,3 @@ class Reservation(models.Model):
         verbose_name = ("Reservation")
         verbose_name_plural = ("Reservations")
 
-    def __str__(self):
-        return self.movie
-
